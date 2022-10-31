@@ -606,7 +606,7 @@ display: flex;
     
 }
 .clients-icon {
-    ;
+    fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
