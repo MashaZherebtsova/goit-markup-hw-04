@@ -389,6 +389,7 @@ line-height:1.62;
 letter-spacing: 0.03em;
 font-family:inherit;
 border: 0;
+border-radius: 4px;
 
 }
 .hero-header-btn {
@@ -464,6 +465,7 @@ padding-left: 0;
 .team-img {
     padding-bottom: 30px;
     padding-top: 10px;
+    background: var(--third-color);
 }
 
 .hero-btn{
@@ -601,10 +603,10 @@ display: flex;
    align-items: center;
    background: #F5F4FA;
    border-radius: 4px;
-    border: 1px solid #AFB1B8;
+    
 }
 .clients-icon {
-    fill: currentColor;
+    ;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -622,11 +624,12 @@ display: flex;
 }
 .item-portfolio:hover,
 .item-portfolio:focus {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
+    
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .hero-header-btn .btn:hover,
 .hero-header-btn .btn:focus {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-color: var(--third-color);   
+color: var(--third-color);  
+background: var(--accent-color); 
 }
